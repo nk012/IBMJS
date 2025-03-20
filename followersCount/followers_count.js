@@ -18,6 +18,8 @@ function displayCount() {
     document.getElementById('countDisplay').innerHTML=count; // Display the count in the HTML
 }
 
-
-
-    
+function resetCount() {
+    count = 0; // Reset the count to 0 in the HTML
+    displayCount(); // Display the count
+    alert("Followers count has been reset."); // Show an alert message
+}  
